@@ -1,0 +1,43 @@
+body{
+    background-color: #181818;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+section.header-menu{
+    height: 119px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-menu a{
+    font-size: RobotoM, sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 41px;
+}
+
+a.home{
+    padding-left: 127px;
+}
+
+.header-menu a:hover{
+    color: #4452FE;
+}
+
+button.login{
+    width: 139px;
+    height: 52px;
+    font-family: RobotoM, sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    cursor: pointer;
+    margin-left: 184px;
+}
