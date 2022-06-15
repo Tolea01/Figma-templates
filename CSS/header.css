@@ -41,3 +41,31 @@ button.login{
     cursor: pointer;
     margin-left: 184px;
 }
+
+section.header-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.title{
+    width: 729px;
+    height: 196px;
+    color: #FFFFFF;
+    font-family: RobotoB, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    padding-top: 60px;
+}
+
+.subtitle{
+    width: 582px;
+    height: 60px;
+    font-family: RobotoL, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-top: 27px;
+}
