@@ -45,6 +45,11 @@ a.login{
     justify-content: center;
 }
 
+a.login:hover{
+    border: 1px solid gray;
+    color: #FFFFFF;
+}
+
 section.header-main{
     display: flex;
     flex-direction: column;
@@ -99,6 +104,15 @@ section.header-main{
     width: 178px;
     height: 65px;
     background: #4452FE;
+}
+
+.button-primary:hover{
+    background: #2637f7;
+}
+
+.button-secundary:hover{
+    border: 1px solid gray;
+    color: gray;
 }
 
 .button-secundary{
