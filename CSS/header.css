@@ -29,7 +29,7 @@ a.home{
     color: #4452FE;
 }
 
-button.login{
+a.login{
     width: 139px;
     height: 52px;
     font-family: RobotoM, sans-serif;
@@ -40,6 +40,9 @@ button.login{
     background: transparent;
     cursor: pointer;
     margin-left: 184px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 section.header-main{
@@ -68,4 +71,40 @@ section.header-main{
     letter-spacing: 0.2px;
     color: #FFFFFF;
     margin-top: 27px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.button-primary a,
+.button-secundary a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: RobotoM, sans-serif;
+    font-size: 17px;
+}
+
+.button-primary,
+.button-secundary{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-primary {
+    width: 178px;
+    height: 65px;
+    background: #4452FE;
+}
+
+.button-secundary{
+    width: 172px;
+    height: 63px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    margin-left: 35px;
 }
