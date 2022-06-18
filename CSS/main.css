@@ -1,0 +1,35 @@
+main.main{
+    width: 100vw;
+    height: 1112px;
+    display: flex;
+    justify-content: center;
+}
+
+section.features{
+    width: 602px;
+    height: 149px;
+}
+
+.title_features{
+    height: 62px;
+    font-size: 52px;
+    text-transform: uppercase;
+    margin-top: 100px;
+    
+}
+
+.title_features,
+.subtitle_features{
+    display: flex;
+    justify-content: center;
+    font-family: RobotoL, sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 0.2px;
+}
+
+.subtitle_features{
+    width: 500px;
+    height: 60px;
+    padding-top: 27px;
+    text-align: center;
+}
