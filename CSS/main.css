@@ -3,10 +3,10 @@ main.main{
     height: 1112px;
     display: flex;
     justify-content: center;
+    flex-direction: row;
 }
 
 section.features{
-    width: 602px;
     height: 149px;
 }
 
@@ -32,4 +32,74 @@ section.features{
     height: 60px;
     padding-top: 27px;
     text-align: center;
+    margin-left: 250px;
+}
+
+.features-img{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+img.ChatBot{
+    width: 696px;
+    height: 659px;
+}
+
+img.LineChart{
+    height: 270px;
+    width: 400px;
+    padding-top: 430px;
+    margin-left: -370px;
+}
+
+.logo{
+    padding-top: 90px;
+    margin-left: 20px;
+}
+
+.logo1_title{
+    width: 180px;
+    height: 60px;
+}
+
+.logo2_title{
+    width: 87px;
+    height: 60px;
+}
+
+.logo3_title{
+    width: 170px;
+    height: 30px;
+}
+
+.logo1_title,
+.logo2_title,
+.logo3_title{
+    display: flex;
+    flex-direction: row;
+    font-family: RobotoM, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.logo1-img,
+.logo2-img,
+.logo3-img{
+    padding-right: 13px;
+}
+
+.logo1_subtitle,
+.logo2_subtitle,
+.logo3_subtitle{
+    width: 259px;
+    height: 96px;
+}
+
+.logo1_subtitle,
+.logo2_subtitle,
+.logo3_subtitle{
+    font-size: 16px;
+    font-family: RobotoL, sans-serif;
+    color: #FFFFFF;
 }
