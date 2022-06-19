@@ -3,6 +3,7 @@ main.main-contents{
     height: 930.52px;
     display: flex;
     justify-content: center;
+    flex-direction: row;
     margin-top: 70px;
 }
 
@@ -14,7 +15,7 @@ main.main-contents{
 .contents-subtitle{
     width: 430px;
     height: 60px;
-    margin-left: 70px;
+    margin-left: 275px;
     margin-top: 30px;
 }
 
