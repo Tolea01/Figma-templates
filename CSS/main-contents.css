@@ -7,7 +7,6 @@ main.main-contents{
 }
 
 .contents-title{
-    width: 550px;
     height: 62px;
     font-size: 52px;
 }
@@ -28,9 +27,13 @@ main.main-contents{
 
 .containers{
     padding-top: 55px;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
 }
 
-.container1{
+.container1,
+.container2{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,19 +51,28 @@ main.main-contents{
     padding-top: 70px;
 }
 
-.title-container1{
+.title-container2{
+    width: 250px;
+    height: 30px;
+    padding-top: 70px;
+}
+
+.title-container1,
+.title-container2{
     font-family: RobotoM, sans-serif;
     color: #000000;
     text-align: center;
     font-size: 23px;
 }
 
-.subtitle-container1{
+.subtitle-container1,
+.subtitle-container2{
     width: 250px;
     height: 72px;
 }
 
-.subtitle-container1{
+.subtitle-container1,
+.subtitle-container2{
     padding-top: 35px;
     font-family: RobotoL, sans-serif;
     text-align: center;
@@ -72,6 +84,15 @@ main.main-contents{
 div.button-container1{
     width: 157px;
     height: 52px;
+}
+
+div.button-container2{
+    width: 190px;
+    height: 52px;
+}
+
+div.button-container1,
+div.button-container2{
     background: #4452FE;
     box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
     display: flex;
@@ -80,14 +101,53 @@ div.button-container1{
     margin-top: 40px;
 }
 
-a.button-container1{
+a.button-container1,
+a.button-container2{
     color: #FFFFFF;
     font-size: 17px;
     font-family: RobotoM, sans-serif;
     text-decoration: none;
 }
 
-div.button-container1:hover{
+div.button-container1:hover,
+div.button-container2:hover{
     background: #2637f7;
     cursor: pointer;
+}
+
+div.computer-img{
+    background: #000000;
+    width: 330.58px;
+    height: 222.42px;
+    border: 1.52131px solid #9FA2A5;
+    border-radius: 4.56393px 4.56393px 0px 0px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.screen_img{
+    width: 312.33px;
+    height: 195.18px;
+}
+
+.img-bottom{
+    background: url("/images/Base.png");
+    width: 405.12px;
+    height: 8.37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.Base-Bottom{
+    width: 405.12px;
+    height: 4.72px;
+}
+
+img.Notifications{
+    width: 379px;
+    height: 276px;
+    padding-top: 20px;
 }
