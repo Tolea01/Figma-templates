@@ -1,0 +1,95 @@
+main.main-gallery{
+    width: 100vw;
+    height: 1016px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+/* ********** */
+section.gallery{
+    height: 1000px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-title{
+    height: 62px;
+    font-size: 52px;
+}
+
+.gallery-title,
+.gallery-subtitle{
+    font-family: RobotoL, sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.gallery-subtitle{
+    width: 430px;
+    height: 60px;
+    padding-top: 30px;
+}
+
+.photo-gallery1{
+    padding-top: 54px;
+}
+
+.photo-gallery2{
+    padding-top: 44px;
+}
+
+.photo-gallery1,
+.photo-gallery2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 33px;
+}
+
+.photo-gallery1 img,
+img.img-gallery22{
+    width: 225px;
+    height: 285px;
+    border-radius: 10px;
+}
+
+img.img-gallery11{
+    width: 395px;
+}
+
+img.img-gallery11,
+img.img-gallery33{
+    height: 285px;
+    border-radius: 8px;
+}
+
+img.img-gallery33{
+    width: 401px;
+}
+
+div.button-gallery{
+    width: 159px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+div.button-gallery:hover{
+    border-color: gray;
+}
+
+a.button-gallery{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 17px;
+    letter-spacing: 0.2px;
+    font-family: RobotoM, sans-serif;
+}
