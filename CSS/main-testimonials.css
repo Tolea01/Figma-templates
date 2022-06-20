@@ -1,0 +1,93 @@
+main.main-testimonials{
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    margin-top: 135px;
+}
+
+section.testimonials{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.testimonials-title{
+    height: 62px;
+    font-family: RobotoL, sans-serif;
+    font-size: 52px;
+    color: #FFFFFF;
+}
+
+div.testimonials-comments{
+    width: 900px;
+    height: 652px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    gap: 25px;
+}
+
+div.comment1,
+div.comment2,
+div.comment3,
+div.comment4{
+    border: 1px solid #DEDEDE;
+    border-radius: 10px;
+    background: transparent;
+}
+
+div.comment1{
+    width: 430px;
+    height: 328px;
+}
+
+div.comment2{
+    width: 430px;
+    height: 304px;
+}
+
+div.comment3{
+    width: 430px;
+    height: 304px;
+}
+
+div.comment4{
+    width: 430px;
+    height: 304px;
+    margin-top: -20px;
+}
+
+div.about-user{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+div.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    font-family: RobotoM, sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+div.comment-text{
+    width: 300px;
+    height: 168px;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: RobotoL, sans-serif;
+    color: #FFFFFF;
+    padding: 31px 70px 40px 40px;
+}
+
+div.box-comment{
+    display: flex;
+    justify-content: center;
+}
